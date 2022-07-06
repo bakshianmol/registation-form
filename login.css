@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url(generic-technical-bg_d41d8cd98f00b204e9800998ecf8427e.jpg) no-repeat center center fixed; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+body:hover{
+    opacity: 0.90;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 400px;
+    background-color: azure;
+    border-radius: 10px;
+}
+.center h1{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    color: rgb(28, 178, 242);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-size: 38px;
+}
+.form {
+    padding-bottom: 15px;
+    margin: 0 20px ;
+    text-align: center;
+
+}
+
+.field{
+    width: 100%;
+    height: 28px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-color: rgb(133, 188, 247);
+    border-radius: 6px;
+    padding: 4px;
+    margin-right: 20px;
+}
+
+.btn{
+    width: 50%;
+    height: 45px;
+    background-color: rgb(8, 111, 255);
+    border-radius: 10px;
+    border: 0px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.btn:hover{
+    background-color: rgb(11, 11, 255);
+}
+
+.forgetpassword{
+    font-size: 16px;
+    padding: 4px 0;
+    margin: 5px;
+}
+.link{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+@media (max-width: 470px) {
+    .center{
+        width:80%
+    }
+}

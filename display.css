@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e06377;
+    background-image: url(./Blurred-backgrounds-by-Dreamstale-5.jpg)  ;
+   
+}
+
+h1 {
+    padding: 22px;
+    text-align: center;
+    width: auto;
+    color: rgb(253, 252, 252);
+    text-decoration: underline;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+table {
+    background-color: #e2c6b3;
+}
+
+th {
+    color: black;
+    padding: 20px;
+    font-size: 21px;
+    background-color: whitesmoke;
+    font-family: addcslashes;
+
+}
+
+td {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #bfffed;
+}
+.logout{
+    background-color: #ebffbd ;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin: 20px;
+    border: 0ch;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+.logout:hover{
+    background-color: whitesmoke;
+}
